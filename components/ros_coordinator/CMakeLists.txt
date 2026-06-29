@@ -1,4 +1,4 @@
 idf_component_register(SRCS "ros_coordinator.c"
                        INCLUDE_DIRS "." "include"
-                       REQUIRES micro_ros_espidf_component freertos leds
-                       PRIV_REQUIRES config)
+                       REQUIRES micro_ros_espidf_component freertos leds system parameters
+                       )
